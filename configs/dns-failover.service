@@ -1,0 +1,12 @@
+[Unit]
+Description=Watchdog y Failover DNS Automatico para Apache
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/dns-failover.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

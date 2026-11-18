@@ -1,0 +1,11 @@
+# Configuración para el Watchdog de Failover DNS (No-IP)
+FRONTEND_INTERNAL_IP="172.31.40.241"
+FRONTEND_PUBLIC_IP="52.55.37.92"
+BACKEND_PUBLIC_IP="54.147.36.62"
+HOSTNAME="eljoviz.servepics.com"
+CHECK_INTERVAL=15
+MAX_FAILS=3
+
+# Credenciales de API Dinámica No-IP
+NOIP_USER="tu_usuario_noip"
+NOIP_PASS="tu_password_noip"
